@@ -31,3 +31,109 @@ body {
 }
 
 /* ----- zde začni psát vlastní CSS ----- */
+
+
+/* ----- menu ----- */
+.menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+a.hlavni {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #747474;
+    padding: 10px;
+    height: 100%;
+}
+ 
+a.hlavni:hover  {
+    text-transform: uppercase;
+    background-color: #fff;
+    color: rgb(34, 33, 33);
+    font-weight: 700;
+}
+
+/* ----- aplikace ----- */
+
+.appka {
+    display: flex;
+    flex-direction: column;
+}
+
+.vizual {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(images/pozadi.jpg);
+    color: #fff;
+    padding-left: 5%;
+}
+
+.telefon {
+    align-self: flex-end;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 400;
+}
+
+.popis {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
+.tlacitko {
+    padding: 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+a.tlacitko {
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 5px;
+    color: #fff;
+}
+
+a:hover {
+    background-color: #48418e;
+}
+
+img.obrazek {
+    padding-top: 30px;
+}
+
+/* ----- popis funkci ----- */
+
+.vlastnosti {
+    display: flex;
+}
+
+h2 {
+    font-size: 1,1em;
+    font-weight: 400;
+    color: #48418e;
+}
+
+.odstavec {
+   text-align: center;
+   margin: 15px;
+}
+
+.ikona {
+    max-width: 20%;
+}
+
+/* ----- paticka ----- */
+
+.paticka {
+    background-color: #48418e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.8em;
+}
